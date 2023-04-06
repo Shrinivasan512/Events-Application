@@ -35,6 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
         // Context push the page config the event of the data to the another page
         context.push(pageConfig: event.pageConfig, data: event.data);
       }
+      
     });
   }
 
